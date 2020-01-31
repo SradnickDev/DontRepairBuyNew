@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6beeb0b-29d9-457e-b406-207b89ad8b50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Product.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c6beeb0b-29d9-457e-b406-207b89ad8b50" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Product.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -19,6 +17,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ProductButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580501095490</updated>
-      <workItem from="1580501125692" duration="2451000" />
+      <workItem from="1580501125692" duration="8097000" />
     </task>
     <servers />
   </component>
@@ -97,6 +98,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="520" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580505125265">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="520" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920@0.0.1440.920" timestamp="1580505125265" />
   </component>
   <component name="hg4idea.settings">
     <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
