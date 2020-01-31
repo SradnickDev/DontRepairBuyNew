@@ -8,7 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Product.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -16,6 +17,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ProductButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580501095490</updated>
-      <workItem from="1580501125692" duration="3874000" />
+      <workItem from="1580501125692" duration="8097000" />
     </task>
     <servers />
   </component>
