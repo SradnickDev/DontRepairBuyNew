@@ -862,6 +862,7 @@
         <e p="Scripts" t="Include">
           <e p="CustomerShoppingMenu.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="ProductButton.cs" t="Include" />
         </e>
       </e>
       <e p="DontRepairBuyNew.sln" t="IncludeFlat" />
