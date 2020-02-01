@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &2043995958294591511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130392196253042054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00019999998, y: 0.001255581, z: 0.01170818}
+  m_Center: {x: 0, y: -0.0000022079619, z: -0.0033509096}
+--- !u!114 &3255489195109660002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130392196253042054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
+--- !u!114 &5032190679945272686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130392196253042054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_meshRenderer: {fileID: 5561753349997424986}
+  m_meshFilter: {fileID: 2167313748734545315}
+  m_collider: {fileID: 2043995958294591511}
+  m_force: {x: 100, y: 200}
+  m_destroyPieceAfterSecounds: 2
+  m_maxPieces: 5
+--- !u!114 &4851595012044515288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6130392196253042054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3e4d6dc1d01a448bb99ab2dc168a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Toiletbrush
+  Points: 1
+  Icon: {fileID: 21300000, guid: 2946e18b2c0ebdc4480089e3fbef4adb, type: 3}
+  Cooldown: 0.5
+  m_destructOnLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  m_isBreakable: 1
+--- !u!1001 &2752379070383791247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.82516
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.23709
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 332.16345
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50.24914
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30.341936
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c52ea5541d412864cb2b2df7a0343642,
+        type: 3}
+      propertyPath: m_Name
+      value: GGJ_Toiletbrush
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c52ea5541d412864cb2b2df7a0343642, type: 3}
+--- !u!1 &6130392196253042054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: c52ea5541d412864cb2b2df7a0343642,
+    type: 3}
+  m_PrefabInstance: {fileID: 2752379070383791247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &2167313748734545315 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -5178661895559278292, guid: c52ea5541d412864cb2b2df7a0343642,
+    type: 3}
+  m_PrefabInstance: {fileID: 2752379070383791247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5561753349997424986 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1504981713932161579, guid: c52ea5541d412864cb2b2df7a0343642,
+    type: 3}
+  m_PrefabInstance: {fileID: 2752379070383791247}
+  m_PrefabAsset: {fileID: 0}
