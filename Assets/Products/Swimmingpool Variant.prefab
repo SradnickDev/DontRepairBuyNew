@@ -30,24 +30,6 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
---- !u!114 &8531345774870281884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2604864961272213925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_meshRenderer: {fileID: 4330915747702228345}
-  m_meshFilter: {fileID: 8009099460219255168}
-  m_collider: {fileID: 2662796095400758538}
-  m_force: {x: 220.89552, y: 750.74634}
-  m_destroyPieceAfterSecounds: 2
-  m_maxPieces: 5
 --- !u!114 &2509673982839196065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +50,40 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   m_isBreakable: 1
+--- !u!114 &8531345774870281884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2604864961272213925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_meshRenderer: {fileID: 4330915747702228345}
+  m_meshFilter: {fileID: 8009099460219255168}
+  m_collider: {fileID: 2662796095400758538}
+  m_force: {x: 220.89552, y: 750.74634}
+  m_destroyPieceAfterSecounds: 2
+  m_maxPieces: 5
+--- !u!54 &4205420886596530123
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2604864961272213925}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &4832600881688405196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222,7 +238,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_Name
-      value: Swimmingpool
+      value: Swimmingpool Variant
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5716681864270162303, guid: 6ea19cff06f515d4c9d003b1677a0ef0, type: 3}
