@@ -12,7 +12,7 @@ public class DestructibleProduct : MonoBehaviour
 	[SerializeField] private Collider m_collider;
 
 	[BoxGroup("Options")]
-	[SerializeField, MinMaxSlider(100, 1000)] private Vector2 m_force;
+	[SerializeField, MinMaxSlider(100, 1000)] private Vector2 m_force = new Vector2(100,200);
 
 	[BoxGroup("Options")]
 	[SerializeField] private float m_destroyPieceAfterSecounds = 2;

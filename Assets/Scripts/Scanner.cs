@@ -1,23 +1,24 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider))]
 public class Scanner : MonoBehaviour
 {
-    private BoxCollider m_collider;
+	[SerializeField] private AudioClip m_clip;
+	[SerializeField] private AudioSource m_audioSource;
+	[SerializeField] private ScoreData ScoreData;
+	private BoxCollider m_collider;
 
-    private void Awake()
-    {
-        m_collider = GetComponent<BoxCollider>();
-    }
+	private void Awake()
+	{
+		m_collider = GetComponent<BoxCollider>();
+	}
 
-    private void OnTriggerEnter(Collider other)
-    {
-        var product = other.gameObject.GetComponent<Product>();
-        if(product == null) return;
-        
-        Cashier.AddScore(product.Points);
-    }
+	private void OnTriggerEnter(Collider other)
+	{
+		var product = other.gameObject.GetComponent<Product>();
+		if (product == null) return;
+
+		ScoreData.AddScore(product.Points);
+		m_audioSource.PlayOneShot(m_clip);
+	}
 }
