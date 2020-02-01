@@ -108,7 +108,9 @@ public class DestructibleProduct : MonoBehaviour
 			}
 		}
 
-		m_meshRenderer.enabled = false;
+        if (GetComponent<OVRGrabbable>().grabbedBy != null)
+            GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(GetComponent<OVRGrabbable>());
+        m_meshRenderer.enabled = false;
 		Destroy(gameObject);
 	}
 }
