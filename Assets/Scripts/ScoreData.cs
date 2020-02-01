@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+﻿using NaughtyAttributes;
+using UnityEngine;
 
 [CreateAssetMenu]
 public class ScoreData : ScriptableObject
 {
 	public int Amount => m_score;
-	private int m_score;
+	[SerializeField,ReadOnly]private int m_score;
 
 	public void AddScore(int amount)
 	{

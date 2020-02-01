@@ -37,25 +37,33 @@ public class Eating : MonoBehaviour
         leftHand.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
         rightHand.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
         source.PlayOneShot(clips[0]);
-        if(product.GetComponent<OVRGrabbable>().grabbedBy != null)
+        if (product.GetComponent<OVRGrabbable>().grabbedBy != null)
+        {
             product.GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(product.GetComponent<OVRGrabbable>());
+        }
         Destroy(product);
     }
 
     public void EatUnhealthy(GameObject product)
     {
+        
         leftHand.localScale += new Vector3(0.1f, 0.1f, 0.1f);
         rightHand.localScale += new Vector3(0.1f, 0.1f, 0.1f);
         source.PlayOneShot(clips[0]);
         if (product.GetComponent<OVRGrabbable>().grabbedBy != null)
+        {
             product.GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(product.GetComponent<OVRGrabbable>());
+        }
         Destroy(product);
     }
 
     public void DrinkCoffee(GameObject product)
     {
+
         if (product.GetComponent<OVRGrabbable>().grabbedBy != null)
+        {
             product.GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(product.GetComponent<OVRGrabbable>());
+        }
         Destroy(product);
     }
 }
