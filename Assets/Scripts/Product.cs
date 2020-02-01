@@ -16,7 +16,7 @@ public class Product : MonoBehaviour
 	private ParticleSystem spawnParticle;
 	private BoxCollider m_collider;
 	private DestructibleProduct m_destructible;
-	private bool m_bought = false;
+	public bool Bought = false;
 
 	private void Awake()
 	{
@@ -34,7 +34,7 @@ public class Product : MonoBehaviour
 
 	public void OnBought()
 	{
-		m_bought = true;
+		Bought = true;
 	}
 
 	private void OnCollisionEnter(Collision other)
@@ -43,7 +43,7 @@ public class Product : MonoBehaviour
 		if ((m_destructOnLayer & 1 << other.gameObject.layer) != 1 << other.gameObject.layer)
 			return;
 
-		if (m_bought) return;
+		if (Bought) return;
 
 		m_destructible.DestructProduct();
 	}

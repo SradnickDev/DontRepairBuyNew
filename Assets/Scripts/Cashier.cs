@@ -8,6 +8,6 @@ public class Cashier : MonoBehaviour
 
 	private void Update()
 	{
-		m_scoreText.text =  m_scoreData.Amount.ToString();
+		m_scoreText.text = "<color=green>$</color> " + m_scoreData.Amount;
 	}
 }

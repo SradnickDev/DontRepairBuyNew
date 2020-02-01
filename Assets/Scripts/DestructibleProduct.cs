@@ -1,6 +1,8 @@
-﻿using NaughtyAttributes;
+﻿using System;
+using NaughtyAttributes;
 using UnityEditor;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(MeshRenderer))]
 [RequireComponent(typeof(MeshFilter))]
@@ -19,6 +21,13 @@ public class DestructibleProduct : MonoBehaviour
 
 	[BoxGroup("Options")]
 	[SerializeField] private int m_maxPieces = 5;
+
+	private void OnEnable()
+	{
+		m_meshFilter = GetComponent<MeshFilter>();
+		m_meshRenderer = GetComponent<MeshRenderer>();
+		m_collider = GetComponent<Collider>();
+	}
 
 	private void Awake()
 	{
