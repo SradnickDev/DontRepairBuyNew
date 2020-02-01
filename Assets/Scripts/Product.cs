@@ -27,7 +27,8 @@ public class Product : MonoBehaviour
 
 	private void Start()
 	{
-		spawnParticle.Play();
+        if(spawnParticle)
+		    spawnParticle.Play();
 	}
 
 
