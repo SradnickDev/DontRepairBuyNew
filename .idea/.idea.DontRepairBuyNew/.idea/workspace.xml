@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TreadMill.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Eating.cs" />
       </list>
     </option>
   </component>
@@ -119,10 +120,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="520" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920@0.0.1440.920" timestamp="1580505125265" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1580564701631">
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1580566638189">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1580564701631" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1580566638189" />
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="true" />
