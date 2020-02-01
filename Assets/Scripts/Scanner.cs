@@ -18,6 +18,6 @@ public class Scanner : MonoBehaviour
         var product = other.gameObject.GetComponent<Product>();
         if(product == null) return;
         
-        Debug.Log("Item Scanned");
+        Cashier.AddScore(product.Points);
     }
 }
