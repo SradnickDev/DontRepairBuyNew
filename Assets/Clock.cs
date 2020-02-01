@@ -15,7 +15,6 @@ public class Clock : MonoBehaviour
     {
         text = GetComponentInChildren<TextMeshPro>();
         source = GetComponent<AudioSource>();
-        StartCountdown();
     }
 
     public void StartCountdown()

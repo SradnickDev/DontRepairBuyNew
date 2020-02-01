@@ -8,6 +8,6 @@ public class Cashier : MonoBehaviour
 
 	private void Update()
 	{
-		m_scoreText.text =  "money : "+ m_scoreData.Amount;
+		m_scoreText.text =  m_scoreData.Amount.ToString();
 	}
 }
