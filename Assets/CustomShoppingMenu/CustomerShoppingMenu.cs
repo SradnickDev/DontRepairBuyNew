@@ -4,21 +4,18 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-[System.Serializable]
-public class ShoppingListCreated : UnityEvent<Dictionary<Product, int>> { }
 
 public class CustomerShoppingMenu : MonoBehaviour
 {
-	public ShoppingListCreated OnShoppingListCreated;
-	
-	[SerializeField, ReorderableList]
-	private List<Product> m_products = new List<Product>();
+    [SerializeField, ReorderableList]
+    private List<Product> m_products = new List<Product>();
 
-	[SerializeField] private ProductButton m_productButton;
-	[SerializeField] private RectTransform m_buttonRect;
-	[SerializeField] private Transform m_spawnPoint;
-	[SerializeField] private int m_itemsPerPage = 6;
-	[SerializeField] private TextMeshProUGUI m_shoppingListDisplay;
+    [SerializeField] private ProductButton m_productButton;
+    [SerializeField] private RectTransform m_buttonRect;
+    [SerializeField] private Transform m_spawnPoint;
+    [SerializeField] private int m_itemsPerPage = 6;
+    [SerializeField] private TextMeshProUGUI m_shoppingListDisplay;
+    [SerializeField] Cart m_cart;
 	private List<ProductButton> m_productButtons = new List<ProductButton>();
 
 	private int MaxPages =>
@@ -32,7 +29,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 	{
 		CreateButtons();
 		CreateShoppingList();
-		OnShoppingListCreated?.Invoke(m_shoppingList);
+        m_cart.OnShoppingListCreated(m_shoppingList);
 	}
 
 	private void CreateButtons()

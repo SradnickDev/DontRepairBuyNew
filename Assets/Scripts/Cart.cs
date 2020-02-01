@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using System.Linq;
 [RequireComponent(typeof(BoxCollider))]
 [RequireComponent(typeof(AudioSource))]
 public class Cart : MonoBehaviour
@@ -21,13 +21,15 @@ public class Cart : MonoBehaviour
 	{
 		var product = other.gameObject.GetComponent<Product>();
 		if (product == null) return;
+        if (!product.enabled) return;
 
-		if (m_shoppingList.ContainsKey(product))
-		{
-			m_shoppingList[product]--;
-			if (m_shoppingList[product] <= 0)
+        var result = m_shoppingList.Keys.ToList().Find(p => p.Name == product.Name);
+        if (result != null)
+        {
+			m_shoppingList[result]--;
+			if (m_shoppingList[result] <= 0)
 			{
-				m_shoppingList.Remove(product);
+				m_shoppingList.Remove(result);
 			}
 		}
 
@@ -39,5 +41,7 @@ public class Cart : MonoBehaviour
 
 		m_audioSource.PlayOneShot(m_clip);
 		m_score.AddScore(1);
-	}
+        product.enabled = false;
+
+    }
 }
