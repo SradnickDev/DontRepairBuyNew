@@ -8,8 +8,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestructibleProduct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Product.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -18,8 +20,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ProductButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -106,6 +110,7 @@
     <state x="520" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.920@0.0.1440.920" timestamp="1580505125265" />
   </component>
   <component name="hg4idea.settings">
+    <option name="CHECK_INCOMING_OUTGOING" value="true" />
     <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
 </project>
