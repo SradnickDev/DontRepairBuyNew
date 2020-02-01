@@ -8,11 +8,13 @@ public class Eating : MonoBehaviour
     public Transform rightHand;
     public AudioClip[] clips;
     AudioSource source;
+    ParticleSystem particles;
 
     public Vector3 scaleRate = new Vector3(0.2f, 0.2f, 0.2f);
 
     private void Start()
     {
+        particles = GetComponent<ParticleSystem>();
         source = GetComponent<AudioSource>();
     }
 
@@ -34,6 +36,7 @@ public class Eating : MonoBehaviour
 
     public void EatHealthy(GameObject product)
     {
+        particles.Play();
         leftHand.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
         rightHand.localScale -= new Vector3(0.1f, 0.1f, 0.1f);
         source.PlayOneShot(clips[0]);
@@ -46,7 +49,7 @@ public class Eating : MonoBehaviour
 
     public void EatUnhealthy(GameObject product)
     {
-        
+        particles.Play();
         leftHand.localScale += new Vector3(0.1f, 0.1f, 0.1f);
         rightHand.localScale += new Vector3(0.1f, 0.1f, 0.1f);
         source.PlayOneShot(clips[0]);
@@ -59,7 +62,7 @@ public class Eating : MonoBehaviour
 
     public void DrinkCoffee(GameObject product)
     {
-
+        particles.Play();
         if (product.GetComponent<OVRGrabbable>().grabbedBy != null)
         {
             product.GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(product.GetComponent<OVRGrabbable>());

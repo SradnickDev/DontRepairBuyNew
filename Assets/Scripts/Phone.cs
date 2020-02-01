@@ -5,6 +5,8 @@ using UnityEngine;
 public class Phone : MonoBehaviour
 {
     Animator anim;
+    public GameObject[] buyingList;
+    public int[] prices;
 
     private void Start()
     {
