@@ -871,6 +871,7 @@
           <e p="Product.cs" t="Include" />
           <e p="Scanner.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
+          <e p="TreadMill.cs" t="Include" />
         </e>
         <e p="SupermarketInterior_v2.5" t="Include">
           <e p="Shaders" t="Include">
