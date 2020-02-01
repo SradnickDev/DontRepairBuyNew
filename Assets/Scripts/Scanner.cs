@@ -15,10 +15,11 @@ public class Scanner : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		var product = other.gameObject.GetComponent<Product>();
-		if (product == null) return;
+		var barcode = other.gameObject.GetComponent<Barcode>();
+		if (barcode == null) return;
 
-		ScoreData.AddScore(product.Points);
+		ScoreData.AddScore(barcode.Product.Points);
 		m_audioSource.PlayOneShot(m_clip);
+		Destroy(barcode);
 	}
 }

@@ -864,6 +864,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Barcode.cs" t="Include" />
           <e p="Cart.cs" t="Include" />
           <e p="DestructibleProduct.cs" t="Include" />
           <e p="Eating.cs" t="Include" />
