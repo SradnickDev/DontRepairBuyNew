@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(OVRGrabbable))]
 [RequireComponent(typeof(DestructibleProduct))]
 [RequireComponent(typeof(BoxCollider))]
 public class Product : MonoBehaviour
@@ -7,6 +8,7 @@ public class Product : MonoBehaviour
 	public string Name;
 	public int Points;
 	public Sprite Icon;
+	public float Cooldown = 0.5f;
 	[SerializeField] private LayerMask m_destructOnLayer;
 	[SerializeField] private bool m_isBreakable = false;
 	private BoxCollider m_collider;
