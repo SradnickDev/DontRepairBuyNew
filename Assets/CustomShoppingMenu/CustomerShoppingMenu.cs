@@ -1,9 +1,16 @@
 ﻿using System.Collections.Generic;
 using NaughtyAttributes;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class ShoppingListCreated : UnityEvent<Dictionary<Product, int>> { }
 
 public class CustomerShoppingMenu : MonoBehaviour
 {
+	public ShoppingListCreated OnShoppingListCreated;
+	
 	[SerializeField, ReorderableList]
 	private List<Product> m_products = new List<Product>();
 
@@ -11,13 +18,21 @@ public class CustomerShoppingMenu : MonoBehaviour
 	[SerializeField] private RectTransform m_buttonRect;
 	[SerializeField] private Transform m_spawnPoint;
 	[SerializeField] private int m_itemsPerPage = 6;
+	[SerializeField] private TextMeshProUGUI m_shoppingListDisplay;
 	private List<ProductButton> m_productButtons = new List<ProductButton>();
-	private int MaxPages => m_productButtons.Count / m_itemsPerPage;
+
+	private int MaxPages =>
+		Mathf.CeilToInt((float) m_productButtons.Count / (float) m_itemsPerPage);
+
 	private int m_currentPage = 1;
+	[SerializeField,MinMaxSlider(0,20)] private Vector2 m_itemsToBuyRange = new Vector2(0,20);
+	private Dictionary<Product, int> m_shoppingList = new Dictionary<Product, int>();
 
 	private void Start()
 	{
 		CreateButtons();
+		CreateShoppingList();
+		OnShoppingListCreated?.Invoke(m_shoppingList);
 	}
 
 	private void CreateButtons()
@@ -28,8 +43,61 @@ public class CustomerShoppingMenu : MonoBehaviour
 			i++;
 			var productButton = Instantiate(m_productButton, m_buttonRect, false);
 			productButton.name = i.ToString();
-			productButton.Setup(product.Icon, product.Name, product.Cooldown, () => { SpawnProduct(product); });
+			productButton.Setup(product.Icon, product.Name, product.Cooldown,
+								() =>
+								{
+									SpawnProduct(product);
+									RemoveProductFromShoppingList(product);
+								});
 			m_productButtons.Add(productButton);
+		}
+	}
+
+	private void CreateShoppingList()
+	{
+		var maxItems = Random.Range(m_itemsToBuyRange.x, m_itemsToBuyRange.y);
+
+		for (var i = 0; i < maxItems; i++)
+		{
+			var rndIdx = Random.Range(0, m_products.Count);
+			var product = m_products[rndIdx];
+
+			if (m_shoppingList.ContainsKey(product))
+			{
+				m_shoppingList[product]++;
+			}
+			else
+			{
+				m_shoppingList.Add(product, 1);
+			}
+		}
+
+		UpdateShoppingList();
+	}
+
+	private void RemoveProductFromShoppingList(Product product)
+	{
+		if (m_shoppingList.ContainsKey(product))
+		{
+			m_shoppingList[product]--;
+
+			if (m_shoppingList[product] <= 0)
+			{
+				m_shoppingList.Remove(product);
+			}
+		}
+
+		UpdateShoppingList();
+	}
+
+	private void UpdateShoppingList()
+	{
+		m_shoppingListDisplay.text = "";
+		foreach (var pair in m_shoppingList)
+		{
+			var amount = pair.Value;
+			var productName = pair.Key.Name;
+			m_shoppingListDisplay.text += $"{amount} x {productName}\n";
 		}
 	}
 
@@ -54,8 +122,8 @@ public class CustomerShoppingMenu : MonoBehaviour
 
 	private void DisplayPageProductButtons()
 	{
-		var startIdx = (m_currentPage+1) * m_itemsPerPage;
-		var endIdx = Mathf.Clamp(startIdx + 6, 0, m_productButtons.Count);
+		var startIdx = (m_currentPage + 1) * m_itemsPerPage;
+		var endIdx = Mathf.Clamp(startIdx + m_itemsPerPage, 0, m_productButtons.Count);
 		if (startIdx >= m_productButtons.Count)
 		{
 			startIdx = 0;
