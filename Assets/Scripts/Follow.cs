@@ -13,7 +13,7 @@ public class Follow : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (target != null)
         {
@@ -24,8 +24,8 @@ public class Follow : MonoBehaviour
 
             if (followPosition)
             {
-                //transform.position = Vector3.Lerp(transform.position, target.position, Time.deltaTime * speed);
-                rb.MovePosition(transform.position + target.position * Time.deltaTime * speed);
+                transform.position = Vector3.Lerp(transform.position, target.position, Time.deltaTime * speed);
+                //rb.MovePosition(transform.position + target.position * Time.deltaTime * speed);
             }
         }
     }
