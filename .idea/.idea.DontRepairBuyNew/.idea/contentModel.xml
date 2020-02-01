@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Clock.cs" t="Include" />
         <e p="CustomShoppingMenu" t="Include">
           <e p="CustomerShoppingMenu.cs" t="Include" />
           <e p="ProductButton.cs" t="Include" />
@@ -868,14 +869,15 @@
           <e p="Cart.cs" t="Include" />
           <e p="Cashier.cs" t="Include" />
           <e p="DestructibleProduct.cs" t="Include" />
+          <e p="DisplayAnim.cs" t="Include" />
           <e p="Eating.cs" t="Include" />
           <e p="Follow.cs" t="Include" />
+          <e p="GameLoop.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="QualityScript.cs" t="Include" />
           <e p="Scanner.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
           <e p="ShoppingList.cs" t="Include" />
-          <e p="Timer.cs" t="Include" />
           <e p="TreadMill.cs" t="Include" />
         </e>
         <e p="SupermarketInterior_v2.5" t="Include">
