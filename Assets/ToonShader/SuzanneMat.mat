@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SuzanneMat
+  m_Shader: {fileID: -6465566751694194690, guid: 1c5677a1f79825b449071de7d674c0d6,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_6BEB5BDD:
+        m_Texture: {fileID: 2800000, guid: bf9c987c5bd24ab478473f34e5e52b0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_FB498ED5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_CEAA7570: 10
+    - Vector1_EA416026: -1
+    m_Colors:
+    - Color_2C12673: {r: 15.999998, g: 15.999998, b: 15.999998, a: 1}
+    - Color_FFB8099D: {r: 1, g: 1, b: 1, a: 1}
+    - _L1_color: {r: 0.46583477, g: 0.79005575, b: 0.7795652, a: 0.52670383}
+    - _L1_dir: {r: 0.22843385, g: 0.044118192, b: 0.9725593, a: 0}
