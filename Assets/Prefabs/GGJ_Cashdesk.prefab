@@ -266,6 +266,7 @@ GameObject:
   - component: {fileID: 3070413427710163459}
   - component: {fileID: 4488378641243791898}
   - component: {fileID: 2151478108274062685}
+  - component: {fileID: 1561543805}
   m_Layer: 0
   m_Name: Cashi_Tape
   m_TagString: Untagged
@@ -346,10 +347,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4addaa4a3ce4ef545b62fd9c479badda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_scrollSpeed: 0.5
   m_dir: {x: -1, y: 0, z: 0}
-  m_pullForce: 0.5
+  m_pullForce: 8
   m_forceMode: 0
+  renderer: {fileID: 3070413427710163459}
 --- !u!65 &2151478108274062685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833878129769832928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.008003261, y: 0.0079999985, z: 0.021977944}
+  m_Center: {x: -0.0000016318463, y: -0.0000000017778831, z: 0.004318309}
+--- !u!65 &1561543805
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -360,8 +376,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0074671735, y: 0.007999999, z: 0.0079999985}
-  m_Center: {x: 0.000266412, y: -0.0000000018128066, z: -5.797474e-23}
+  m_Size: {x: 0.007999999, y: 0.007999999, z: 0.007999999}
+  m_Center: {x: 2.3283064e-10, y: -4.656613e-10, z: -0.000000014901161}
 --- !u!1 &2090241822764231036
 GameObject:
   m_ObjectHideFlags: 0

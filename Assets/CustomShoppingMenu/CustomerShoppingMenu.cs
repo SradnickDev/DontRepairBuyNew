@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using NaughtyAttributes;
 using TMPro;
 using UnityEngine;
@@ -7,6 +8,7 @@ using UnityEngine.Events;
 
 public class CustomerShoppingMenu : MonoBehaviour
 {
+    public UnityEvent OnBoughtAllProducts;
     [SerializeField, ReorderableList]
     private List<Product> m_products = new List<Product>();
 
@@ -15,7 +17,6 @@ public class CustomerShoppingMenu : MonoBehaviour
     [SerializeField] private Transform m_spawnPoint;
     [SerializeField] private int m_itemsPerPage = 6;
     [SerializeField] private TextMeshProUGUI m_shoppingListDisplay;
-    [SerializeField] Cart m_cart;
 	private List<ProductButton> m_productButtons = new List<ProductButton>();
 
 	private int MaxPages =>
@@ -29,7 +30,6 @@ public class CustomerShoppingMenu : MonoBehaviour
 	{
 		CreateButtons();
 		CreateShoppingList();
-        m_cart.OnShoppingListCreated(m_shoppingList);
 	}
 
 	private void CreateButtons()
@@ -44,7 +44,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 								() =>
 								{
 									SpawnProduct(product);
-									RemoveProductFromShoppingList(product);
+				
 								});
 			m_productButtons.Add(productButton);
 		}
@@ -72,19 +72,29 @@ public class CustomerShoppingMenu : MonoBehaviour
 		UpdateShoppingList();
 	}
 
-	private void RemoveProductFromShoppingList(Product product)
+	public void RemoveProductFromShoppingList(Product product)
 	{
-		if (m_shoppingList.ContainsKey(product))
+        var result = m_shoppingList.Keys.ToList().Find(p => p.Name == product.Name);
+        if (m_shoppingList.ContainsKey(result))
 		{
-			m_shoppingList[product]--;
+			m_shoppingList[result]--;
 
-			if (m_shoppingList[product] <= 0)
+			if (m_shoppingList[result] <= 0)
 			{
-				m_shoppingList.Remove(product);
+				m_shoppingList.Remove(result);
 			}
 		}
 
-		UpdateShoppingList();
+
+
+        if (m_shoppingList.Count == 0)
+        {
+            Debug.Log("You Won!");
+            OnBoughtAllProducts?.Invoke();
+        }
+
+
+        UpdateShoppingList();
 	}
 
 	private void UpdateShoppingList()

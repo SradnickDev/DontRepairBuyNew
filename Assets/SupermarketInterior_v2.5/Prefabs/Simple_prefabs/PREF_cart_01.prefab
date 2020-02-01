@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 166594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.64258015, y: 0.6425801, z: 0.64258015}
+  m_LocalScale: {x: 1.1497865, y: 0.61164963, z: 0.8296852}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -204,6 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c52c14d60bb3c9b4391c0a48acd7e0fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  customerShopping: {fileID: 0}
   m_clip: {fileID: 8300000, guid: 9855115279d3c9041b9084048fb7775b, type: 3}
   m_audioSource: {fileID: 4311828626076165323}
   m_score: {fileID: 11400000, guid: 7c5b77ef86270c64fa1af56ccfdf971e, type: 2}

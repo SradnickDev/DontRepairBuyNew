@@ -1352,21 +1352,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2619c1e17fcde0e4aa80d2cbe53ef778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnBoughtAllProducts:
+    m_PersistentCalls:
+      m_Calls: []
   m_products:
   - {fileID: 4851595012044515288, guid: a8677c8ae12c66344967d6e78fa21ad0, type: 3}
   - {fileID: 7400137474755367624, guid: 101d7d089b52fd6438cabe2cd42b923c, type: 3}
-  - {fileID: 265229275756647715, guid: 5ea3de26f57b27849a1f1f58389d7ffb, type: 3}
-  - {fileID: 5115814639167916707, guid: 3f4755cc568ba6b498afcb0bd087ecdc, type: 3}
-  - {fileID: 2029525076415766220, guid: 3cbbd7c4f885226448ad08be425a9d6a, type: 3}
-  - {fileID: 2509673982839196065, guid: 65056e29fc7bed243aa395c9712d6fb1, type: 3}
   m_productButton: {fileID: 2022698385097322745, guid: b1268e70029b5754c861711f99e41482,
     type: 3}
   m_buttonRect: {fileID: 5856075054423334653}
   m_spawnPoint: {fileID: 0}
   m_itemsPerPage: 4
   m_shoppingListDisplay: {fileID: 2331683308967878051}
-  m_cart: {fileID: 0}
-  m_itemsToBuyRange: {x: 5, y: 15}
+  m_itemsToBuyRange: {x: 3, y: 5}
 --- !u!1 &8763330931138080375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4dfc4d61fbf4fc04385e2729221e16ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a5751b146ebc90249a23321535306d48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
