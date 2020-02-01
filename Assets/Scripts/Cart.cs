@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider))]
+[RequireComponent(typeof(AudioSource))]
 public class Cart : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	[SerializeField] private AudioClip m_clip;
+	[SerializeField] private AudioSource m_audioSource;
+	[SerializeField] private ScoreData m_score;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	private void OnTriggerEnter(Collider other)
+	{
+		var product = other.gameObject.GetComponent<Product>();
+		if (product == null) return;
+		m_audioSource.PlayOneShot(m_clip);
+		m_score.AddScore(1);
+	}
 }
