@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5505846812331114746}
   - component: {fileID: 2332930947733063949}
   - component: {fileID: 2364471248642748322}
-  - component: {fileID: 1863001949783636272}
   - component: {fileID: -1464512526524688454}
+  - component: {fileID: 8542957472304453159}
+  - component: {fileID: 124429335765634433}
   m_Layer: 0
   m_Name: TestProduct
   m_TagString: Untagged
@@ -95,21 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1863001949783636272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7859962387524558195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc3e4d6dc1d01a448bb99ab2dc168a0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Test
-  Points: 1
-  Icon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!54 &-1464512526524688454
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,3 +112,40 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8542957472304453159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7859962387524558195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_meshRenderer: {fileID: 2332930947733063949}
+  m_meshFilter: {fileID: 5505846812331114746}
+  m_collider: {fileID: 2364471248642748322}
+  m_force: {x: 100, y: 200}
+  m_destroyPieceAfterSecounds: 2
+  m_maxPieces: 5
+--- !u!114 &124429335765634433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7859962387524558195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3e4d6dc1d01a448bb99ab2dc168a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Points: 0
+  Icon: {fileID: 0}
+  m_destructOnLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  m_isBreakable: 1
