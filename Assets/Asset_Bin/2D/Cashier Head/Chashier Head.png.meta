@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3545b82d0b5e0a14caf194592a3f9c16
+=======
+guid: 2cee26ac59d8ef64f95959294c54ce1d
+>>>>>>> Kevin
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

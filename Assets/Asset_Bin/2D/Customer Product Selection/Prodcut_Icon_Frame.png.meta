@@ -1,16 +1,24 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 006f6f6071a1c5c47bbd29bc58a0a135
 =======
 guid: c41d753eea29fc648a28adc562b0805f
 >>>>>>> c6e81ca8d2de0c62e01bc06e1b6a4ffad9ee5066
+=======
+guid: 006f6f6071a1c5c47bbd29bc58a0a135
+>>>>>>> Kevin
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
     enableMipMap: 0
+=======
+    enableMipMap: 1
+>>>>>>> Kevin
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,6 +44,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
+<<<<<<< HEAD
     aniso: 1
     mipBias: -100
     wrapU: 1
@@ -45,6 +54,17 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+=======
+    aniso: 2
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+>>>>>>> Kevin
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -53,9 +73,15 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< HEAD
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+=======
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+>>>>>>> Kevin
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -128,7 +154,11 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
+=======
+    spriteID: 
+>>>>>>> Kevin
     internalID: 0
     vertices: []
     indices: 
