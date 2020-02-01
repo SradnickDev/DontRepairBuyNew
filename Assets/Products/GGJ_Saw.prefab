@@ -94,17 +94,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6374
+      value: 1.6355
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.82296
+      value: 0.8144
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.549
+      value: 0.56029
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
@@ -149,17 +149,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.6216946
+      value: 1.0748948
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.4409475
+      value: 2.6407886
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 8.615205
+      value: 3.532234
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
@@ -169,7 +169,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 4d90cb612eb6b36458c03336283c7c1f,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d90cb612eb6b36458c03336283c7c1f, type: 3}
@@ -298,6 +298,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Barcode
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656027965962903794, guid: bac1090da79dc0c479772224d8bcf926,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8782066904371618041, guid: bac1090da79dc0c479772224d8bcf926,
         type: 3}
