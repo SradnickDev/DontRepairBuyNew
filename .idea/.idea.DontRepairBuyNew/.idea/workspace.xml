@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Barcode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TreadMill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cart.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,7 +26,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ProductButton.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cashier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Scanner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructibleProduct.cs" />
@@ -34,6 +34,7 @@
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Eating.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scanner.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580501095490</updated>
       <workItem from="1580501125692" duration="8097000" />
+      <workItem from="1580568617177" duration="957000" />
     </task>
     <servers />
   </component>
