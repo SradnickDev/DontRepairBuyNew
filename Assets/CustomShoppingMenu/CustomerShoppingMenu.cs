@@ -28,7 +28,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 			i++;
 			var productButton = Instantiate(m_productButton, m_buttonRect, false);
 			productButton.name = i.ToString();
-			productButton.Setup(product.Icon, product.Name + i, 1, () => { SpawnProduct(product); });
+			productButton.Setup(product.Icon, product.Name, product.Cooldown, () => { SpawnProduct(product); });
 			m_productButtons.Add(productButton);
 		}
 	}
