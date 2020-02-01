@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scanner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Eating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/ProductButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +39,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShoppingList.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       </list>
     </option>
   </component>
