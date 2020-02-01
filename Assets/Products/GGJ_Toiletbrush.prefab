@@ -166,6 +166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barcode
       objectReference: {fileID: 0}
+    - target: {fileID: 8656027965962903794, guid: bac1090da79dc0c479772224d8bcf926,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8782066904371618041, guid: bac1090da79dc0c479772224d8bcf926,
         type: 3}
       propertyPath: Product
@@ -258,7 +263,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c52ea5541d412864cb2b2df7a0343642,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c52ea5541d412864cb2b2df7a0343642, type: 3}

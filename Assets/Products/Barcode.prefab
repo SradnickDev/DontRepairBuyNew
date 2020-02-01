@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1276696010431318517}
   - component: {fileID: 4356065479259439127}
   - component: {fileID: 8782066904371618041}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Barcode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
