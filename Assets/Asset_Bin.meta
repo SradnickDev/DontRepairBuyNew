@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/SupermarketInterior_v2.5.meta
 guid: 33ee872c45ee23f479c8059d1df65a67
 =======
 guid: 8a4d5623fc8b6a64e95c1751d4622f93
 >>>>>>> 4ef4527f8df7b65a8984d2b4634f544eb1eda1a7:Assets/Asset_Bin.meta
+=======
+guid: 8a4d5623fc8b6a64e95c1751d4622f93
+>>>>>>> c6e81ca8d2de0c62e01bc06e1b6a4ffad9ee5066
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
