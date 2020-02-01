@@ -10,7 +10,7 @@ public class Phone : MonoBehaviour
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
     }
     private void OnTriggerEnter(Collider other)
     {
