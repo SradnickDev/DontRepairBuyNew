@@ -15,7 +15,7 @@ public class Cart : MonoBehaviour
 	{
 		var product = other.gameObject.GetComponent<Product>();
 		if (product == null) return;
-		if (!product.Bought) return;
+		//if (!product.Bought) return;
 		if (!product.enabled) return;
 
 		customerShopping.RemoveProductFromShoppingList(product);
