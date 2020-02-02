@@ -26607,7 +26607,7 @@ MonoBehaviour:
   rightHand: {fileID: 2089330700}
   clips:
   - {fileID: 8300000, guid: 21b0c85ab4473ec4caa07096101ba619, type: 3}
-  scaleRate: {x: 0.4, y: 0.4, z: 0.4}
+  scaleRate: {x: 0.7, y: 0.7, z: 0.7}
 --- !u!135 &1844868699
 SphereCollider:
   m_ObjectHideFlags: 0
