@@ -118,8 +118,9 @@ public class CustomerShoppingMenu : MonoBehaviour
 
 	private void SpawnProduct(Product product)
 	{
-		var rnd = Random.insideUnitSphere*0.3f;
-		Instantiate(product, m_spawnPoint.transform.position + rnd, Quaternion.identity);
+		var rnd = Random.insideUnitSphere;
+		var p = Instantiate(product, m_spawnPoint.transform.position + (rnd*0.2f), Quaternion.identity);
+		p.transform.LookAt(p.transform.position + rnd);
 	}
 
 	[Button()]

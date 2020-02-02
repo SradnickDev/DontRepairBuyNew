@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scanner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructibleProduct.cs" />
-        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DisplayAnim.cs" />
+        <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
       </list>
     </option>
   </component>
