@@ -29,6 +29,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00095964276, y: 0.0030353302, z: 0.003802602}
   m_Center: {x: 0.0004625007, y: 0.00093556836, z: -0.0004821524}
+--- !u!82 &1060820376777343662
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100247279803381859}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &4288154164964951138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41,6 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_clip: {fileID: 8300000, guid: 2b3be8e328fd8a046aebf13e54eebe0a, type: 3}
+  m_audioSource: {fileID: 1060820376777343662}
   m_meshRenderer: {fileID: 7383164106619423935}
   m_meshFilter: {fileID: 3840107892937912390}
   m_collider: {fileID: 6169179412686280981}
@@ -165,7 +263,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_Name
-      value: GGJ_Donut
+      value: GGJ_Donut Variant
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
         type: 3}
