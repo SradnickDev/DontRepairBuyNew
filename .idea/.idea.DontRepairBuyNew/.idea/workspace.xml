@@ -97,7 +97,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShoppingList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Clock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayAnim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameLoop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Product.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cart.cs" />
@@ -107,6 +106,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Scanner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructibleProduct.cs" />
         <option value="$PROJECT_DIR$/Assets/CustomShoppingMenu/CustomerShoppingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayAnim.cs" />
       </list>
     </option>
   </component>

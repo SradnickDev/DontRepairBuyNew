@@ -2478,7 +2478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2616,6 +2616,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852d89db7cfd0d842950e5d77aa4a68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_crack: {fileID: 2606607555615710770}
+  m_crack2: {fileID: 21300000, guid: 5c9a392c85dffec4f961562297f89b1c, type: 3}
+  m_crack3: {fileID: 21300000, guid: 84c67498cb2a3554f9cf1252ed97d165, type: 3}
   OnBrokenDisplay:
     m_PersistentCalls:
       m_Calls:
