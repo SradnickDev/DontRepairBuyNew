@@ -878,6 +878,7 @@
           <e p="Phone.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="QualityScript.cs" t="Include" />
+          <e p="RandomAnnouncement.cs" t="Include" />
           <e p="Scanner.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
           <e p="ShoppingList.cs" t="Include" />
