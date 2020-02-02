@@ -2269,6 +2269,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2563934977785753915}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_products:
   - {fileID: 1181238520683025514, guid: 5ea3de26f57b27849a1f1f58389d7ffb, type: 3}
   - {fileID: 720530641547940004, guid: 6f0e605140c85de4a920e5dae5012373, type: 3}
@@ -2280,6 +2291,7 @@ MonoBehaviour:
   - {fileID: 8912824309410867003, guid: 3cbbd7c4f885226448ad08be425a9d6a, type: 3}
   - {fileID: 4851595012044515288, guid: a8677c8ae12c66344967d6e78fa21ad0, type: 3}
   - {fileID: 1565699306654456545, guid: 3d4f99e529c02494abbc542bc3f6f6bf, type: 3}
+  - {fileID: 241906793549869744, guid: 62d93066f0ed924438a9d8c98f1df2a5, type: 3}
   m_productButton: {fileID: 2022698385097322745, guid: b1268e70029b5754c861711f99e41482,
     type: 3}
   m_buttonRect: {fileID: 5856075054423334653}

@@ -41,6 +41,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_clip: {fileID: 0}
+  m_audioSource: {fileID: 0}
   m_meshRenderer: {fileID: 1012476675936081208}
   m_meshFilter: {fileID: 6715292862101203393}
   m_collider: {fileID: 1085703049509872628}
@@ -226,6 +228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSpawnParticle
       objectReference: {fileID: 0}
+    - target: {fileID: 2619335506796845574, guid: 924c02f8194a86547979a23b3182bb84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924c02f8194a86547979a23b3182bb84, type: 3}
 --- !u!1001 &7282374709735635181
@@ -238,17 +245,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1111
+      value: 0.45580995
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.3283064e-10
+      value: 0.726
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.46025753
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
         type: 3}
@@ -290,10 +297,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 24.160236
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 24.160236
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2b4d763eb995387479954003e313d473,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 31.768982
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 2b4d763eb995387479954003e313d473,
         type: 3}
       propertyPath: m_Name
       value: GGJ_Screwdriver Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2b4d763eb995387479954003e313d473,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b4d763eb995387479954003e313d473, type: 3}

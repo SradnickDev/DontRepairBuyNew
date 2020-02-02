@@ -62,6 +62,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_clip: {fileID: 0}
+  m_audioSource: {fileID: 0}
   m_meshRenderer: {fileID: 9053835844913738558}
   m_meshFilter: {fileID: 3357757672010272711}
   m_collider: {fileID: 1884145073272681567}
@@ -169,17 +171,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.17525
+      value: 0.7192894
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00039698
+      value: 0.6233761
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0029492
+      value: 0.60957736
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
@@ -224,22 +226,27 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.0843825
+      value: 4.8900657
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 39.71569
+      value: 27.414152
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.98724526
+      value: 0.6814559
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_Name
       value: GGJ_Wood Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5824488b3d75dc4a8df9bd7e9ee66bb, type: 3}
@@ -333,6 +340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ItemSpawnParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619335506796845574, guid: 924c02f8194a86547979a23b3182bb84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924c02f8194a86547979a23b3182bb84, type: 3}

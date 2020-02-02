@@ -8,6 +8,7 @@ public class Scanner : MonoBehaviour
 	[SerializeField] private AudioSource m_audioSource;
 	[SerializeField] private ScoreData ScoreData;
 	[SerializeField] private TextMeshPro m_textMesh;
+    [SerializeField] private Animator m_animator;
 	private BoxCollider m_collider;
 
 	private void Awake()
@@ -25,6 +26,7 @@ public class Scanner : MonoBehaviour
 		m_textMesh.text = barcode.Product.Name;
         var randomClipIdx = Random.Range(0, m_clips.Length);
 		m_audioSource.PlayOneShot(m_clips[randomClipIdx]);
+        m_animator.SetTrigger("scan");
 		Destroy(barcode);
 	}
 }

@@ -111,6 +111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GGJ_Grocery_Divider Variant
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: bc4ae142f93ccc447b909f2054111826,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc4ae142f93ccc447b909f2054111826, type: 3}
 --- !u!1 &3621426910649228376 stripped
