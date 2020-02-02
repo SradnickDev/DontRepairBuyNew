@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &6147490168281942174
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8056652698550812953}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 25.070711, y: 76.35243, z: 8.589144}
-  m_Center: {x: 0, y: 0.0000019073483, z: 0.057175625}
 --- !u!54 &5785427193406392268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29,64 +16,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1690353777910849414
-MonoBehaviour:
+--- !u!65 &6147490168281942174
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8056652698550812953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
---- !u!114 &211829418030372814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8056652698550812953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_clip: {fileID: 8300000, guid: 2b3be8e328fd8a046aebf13e54eebe0a, type: 3}
-  m_audioSource: {fileID: 8408229348283376308}
-  m_meshRenderer: {fileID: 8643020103409104325}
-  m_meshFilter: {fileID: 2652239296488638780}
-  m_collider: {fileID: 6147490168281942174}
-  m_force: {x: 100, y: 200}
-  m_destroyPieceAfterSecounds: 2
-  m_maxPieces: 5
---- !u!114 &241906793549869744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8056652698550812953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc3e4d6dc1d01a448bb99ab2dc168a0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Swimming Pool
-  Points: 1
-  Icon: {fileID: 21300000, guid: 6d8661cd1d634ca4f8262422d35526ba, type: 3}
-  Cooldown: 0.5
-  m_destructOnLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  m_isBreakable: 0
-  Bought: 0
+  serializedVersion: 2
+  m_Size: {x: 25.070711, y: 76.35243, z: 8.589144}
+  m_Center: {x: 0, y: 0.0000019073483, z: 0.057175625}
 --- !u!82 &8408229348283376308
 AudioSource:
   m_ObjectHideFlags: 0
@@ -183,6 +125,64 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &211829418030372814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056652698550812953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_clip: {fileID: 8300000, guid: 2b3be8e328fd8a046aebf13e54eebe0a, type: 3}
+  m_audioSource: {fileID: 8408229348283376308}
+  m_meshRenderer: {fileID: 8643020103409104325}
+  m_meshFilter: {fileID: 2652239296488638780}
+  m_collider: {fileID: 6147490168281942174}
+  m_force: {x: 100, y: 200}
+  m_destroyPieceAfterSecounds: 2
+  m_maxPieces: 5
+--- !u!114 &241906793549869744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056652698550812953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc3e4d6dc1d01a448bb99ab2dc168a0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Swimming Pool
+  Points: 1
+  Icon: {fileID: 21300000, guid: 6d8661cd1d634ca4f8262422d35526ba, type: 3}
+  Cooldown: 0.5
+  m_destructOnLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  m_isBreakable: 0
+  Bought: 0
+--- !u!114 &1690353777910849414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8056652698550812953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &2084911433700546576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,17 +193,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.273
+      value: 1.3260934
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: 0.737
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.596
+      value: 0.70043486
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
@@ -248,22 +248,27 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03459276
+      value: 0.025896475
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.011358705
+      value: 0.008503237
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.025312727
+      value: 0.018949354
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
         type: 3}
       propertyPath: m_Name
-      value: Swimmingpool
+      value: Swimmingpool Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6ea19cff06f515d4c9d003b1677a0ef0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5716681864270162303, guid: 6ea19cff06f515d4c9d003b1677a0ef0, type: 3}

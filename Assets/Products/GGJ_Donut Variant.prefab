@@ -193,17 +193,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.019217
+      value: 0.25992435
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.47136
+      value: 0.681
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.02304
+      value: 0.49565756
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
@@ -248,17 +248,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 29.607576
+      value: 43.559868
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 29.607578
+      value: 43.55987
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 23.63349
+      value: 34.77055
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
         type: 3}
@@ -269,6 +269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Unhealthy
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 627ff640543701043bac346410418ee2, type: 3}
@@ -451,6 +456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ItemSpawnParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619335506796845574, guid: 924c02f8194a86547979a23b3182bb84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924c02f8194a86547979a23b3182bb84, type: 3}
