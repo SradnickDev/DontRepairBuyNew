@@ -26090,7 +26090,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4045350b6f5a82f4b9cee48c55ba5fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_clips: []
+  m_clips:
+  - {fileID: 8300000, guid: 29fda712eec13d24189b73a19811a612, type: 3}
+  - {fileID: 8300000, guid: 6d1e62665c734414882f788d0539f2df, type: 3}
+  - {fileID: 8300000, guid: c0285025f62cfd2478eba9534a1c9474, type: 3}
+  - {fileID: 8300000, guid: 4e1797048cafc28419a09f53aec1e169, type: 3}
 --- !u!82 &1838777225
 AudioSource:
   m_ObjectHideFlags: 0
