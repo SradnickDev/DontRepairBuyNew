@@ -20,6 +20,7 @@ public class Scanner : MonoBehaviour
 		var barcode = other.gameObject.GetComponent<Barcode>();
 		if (barcode == null) return;
 
+		barcode.OnBought();
 		ScoreData.AddScore(barcode.Product.Points);
 		m_textMesh.text = barcode.Product.Name;
 		m_audioSource.PlayOneShot(m_clip);

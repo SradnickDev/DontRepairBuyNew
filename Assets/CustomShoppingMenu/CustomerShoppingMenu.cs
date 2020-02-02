@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-
 public class CustomerShoppingMenu : MonoBehaviour
 {
     public UnityEvent OnBoughtAllProducts;
