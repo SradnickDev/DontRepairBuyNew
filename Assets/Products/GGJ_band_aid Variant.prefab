@@ -265,6 +265,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GGJ_band_aid Variant
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3acb910570115644c9b881bbb72a83ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3acb910570115644c9b881bbb72a83ee, type: 3}
 --- !u!1 &8038386506993998375 stripped
@@ -446,6 +451,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ItemSpawnParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619335506796845574, guid: 924c02f8194a86547979a23b3182bb84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924c02f8194a86547979a23b3182bb84, type: 3}

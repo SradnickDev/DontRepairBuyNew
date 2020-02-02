@@ -79,6 +79,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_clip: {fileID: 0}
+  m_audioSource: {fileID: 0}
   m_meshRenderer: {fileID: 1700624860918041421}
   m_meshFilter: {fileID: 4946461091396597684}
   m_collider: {fileID: 7356101272581040926}
@@ -151,6 +153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ItemSpawnParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619335506796845574, guid: 924c02f8194a86547979a23b3182bb84,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924c02f8194a86547979a23b3182bb84, type: 3}
@@ -253,17 +260,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0.44463158
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.098
+      value: 0.739
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0.72466016
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
@@ -308,17 +315,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7830989
+      value: 4.843404
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.190229
+      value: 5.9492846
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.109208
+      value: 8.445495
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
         type: 3}
@@ -329,6 +336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Unhealthy
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f8c61e0f388c4ad43bfd0229876fc2e7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8c61e0f388c4ad43bfd0229876fc2e7, type: 3}
