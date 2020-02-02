@@ -2280,6 +2280,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8765568627753202177}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9003744790073962828}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_products:
   - {fileID: 1181238520683025514, guid: 5ea3de26f57b27849a1f1f58389d7ffb, type: 3}
   - {fileID: 720530641547940004, guid: 6f0e605140c85de4a920e5dae5012373, type: 3}
@@ -2298,7 +2320,7 @@ MonoBehaviour:
   m_spawnPoint: {fileID: 0}
   m_itemsPerPage: 4
   m_shoppingListDisplay: {fileID: 2331683308967878051}
-  m_itemsToBuyRange: {x: 3, y: 10}
+  m_itemsToBuyRange: {x: 1, y: 1}
 --- !u!1 &8763330931138080375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,6 +2677,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2563934977785753915}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &9003744790073962828
 GameObject:

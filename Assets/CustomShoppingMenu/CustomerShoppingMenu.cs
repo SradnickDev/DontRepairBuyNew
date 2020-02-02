@@ -22,7 +22,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 	private int MaxPages =>
 		Mathf.CeilToInt((float) m_productButtons.Count / (float) m_itemsPerPage);
 
-	private int m_currentPage = 1;
+	private int m_currentPage = 0;
 	[SerializeField,MinMaxSlider(0,20)] private Vector2 m_itemsToBuyRange = new Vector2(0,20);
 	private Dictionary<Product, int> m_shoppingList = new Dictionary<Product, int>();
 
