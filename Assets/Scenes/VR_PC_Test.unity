@@ -39852,6 +39852,41 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.23065376
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.71875995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.29161206
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58749086
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 43.647003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 101.12601
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995325907886124758, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.87700003
+      objectReference: {fileID: 0}
     - target: {fileID: 2858629429770534032, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
         type: 3}
       propertyPath: m_Mesh
@@ -39900,17 +39935,24 @@ PrefabInstance:
     - target: {fileID: 7081859181634191930, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
         type: 3}
       propertyPath: m_text
-      value: $
+      value: '$0
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7081859181634191930, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7081859181634191930, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7081859181634191930, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8433770342145679140, guid: ab4fa8cbcc7f9cd4591232e6f1041790,
         type: 3}
