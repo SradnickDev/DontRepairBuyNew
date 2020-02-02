@@ -16,7 +16,7 @@ public class RandomAnnouncement : MonoBehaviour
 
 	private IEnumerator PlayRandomSound()
 	{
-		yield return new WaitForSeconds(5);
+		yield return new WaitForSeconds(15);
 		var clip = m_clips[Random.Range(0, m_clips.Length)];
 		m_source.PlayOneShot(clip);
 		StartCoroutine(PlayRandomSound());
