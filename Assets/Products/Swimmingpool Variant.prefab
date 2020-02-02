@@ -379,5 +379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barcode
       objectReference: {fileID: 0}
+    - target: {fileID: 8782066904371618041, guid: bac1090da79dc0c479772224d8bcf926,
+        type: 3}
+      propertyPath: Product
+      value: 
+      objectReference: {fileID: 241906793549869744}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bac1090da79dc0c479772224d8bcf926, type: 3}
