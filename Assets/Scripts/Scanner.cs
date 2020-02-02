@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class Scanner : MonoBehaviour
 {
-	[SerializeField] private AudioClip m_clip;
+	[SerializeField] private AudioClip[] m_clips;
 	[SerializeField] private AudioSource m_audioSource;
 	[SerializeField] private ScoreData ScoreData;
 	[SerializeField] private TextMeshPro m_textMesh;
@@ -23,7 +23,8 @@ public class Scanner : MonoBehaviour
 		barcode.OnBought();
 		ScoreData.AddScore(barcode.Product.Points);
 		m_textMesh.text = barcode.Product.Name;
-		m_audioSource.PlayOneShot(m_clip);
+        var randomClipIdx = Random.Range(0, m_clips.Length);
+		m_audioSource.PlayOneShot(m_clips[randomClipIdx]);
 		Destroy(barcode);
 	}
 }
