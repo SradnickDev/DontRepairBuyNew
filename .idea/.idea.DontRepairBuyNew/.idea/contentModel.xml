@@ -11,6 +11,7 @@
           <e p="CustomerShoppingMenu.cs" t="Include" />
           <e p="ProductButton.cs" t="Include" />
         </e>
+        <e p="EnableDisable.cs" t="Include" />
         <e p="NaughtyAttributes" t="Include">
           <e p="Scripts" t="Include">
             <e p="Core" t="Include">

@@ -17,6 +17,7 @@ public class CustomerShoppingMenu : MonoBehaviour
     [SerializeField] private int m_itemsPerPage = 6;
     [SerializeField] private TextMeshProUGUI m_shoppingListDisplay;
 	private List<ProductButton> m_productButtons = new List<ProductButton>();
+	private List<string> m_boughtItems;
 
 	private int MaxPages =>
 		Mathf.CeilToInt((float) m_productButtons.Count / (float) m_itemsPerPage);
@@ -27,6 +28,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 
 	private void Start()
 	{
+		m_boughtItems = new List<string>();
 		CreateButtons();
 		CreateShoppingList();
 	}
@@ -82,6 +84,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 			if (m_shoppingList[result] <= 0)
 			{
 				m_shoppingList.Remove(result);
+				m_boughtItems.Add($"<s>{product.Name}</s>");
 			}
 		}
 
@@ -106,11 +109,17 @@ public class CustomerShoppingMenu : MonoBehaviour
 			var productName = pair.Key.Name;
 			m_shoppingListDisplay.text += $"{amount} x {productName}\n";
 		}
+
+		foreach (var boughtItem in m_boughtItems)
+		{
+			m_shoppingListDisplay.text += boughtItem+"\n";
+		}
 	}
 
 	private void SpawnProduct(Product product)
 	{
-		Instantiate(product, m_spawnPoint.transform.position, Quaternion.identity);
+		var rnd = Random.insideUnitSphere*0.3f;
+		Instantiate(product, m_spawnPoint.transform.position + rnd, Quaternion.identity);
 	}
 
 	[Button()]
