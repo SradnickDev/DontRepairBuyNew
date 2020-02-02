@@ -75,6 +75,7 @@ public class CustomerShoppingMenu : MonoBehaviour
 	public void RemoveProductFromShoppingList(Product product)
 	{
         var result = m_shoppingList.Keys.ToList().Find(p => p.Name == product.Name);
+        if (result == null) return;
         if (m_shoppingList.ContainsKey(result))
 		{
 			m_shoppingList[result]--;

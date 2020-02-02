@@ -39,11 +39,7 @@ public class DestructibleProduct : MonoBehaviour
 	[Button()]
 	public void DestructProduct()
 	{
-		if (!EditorApplication.isPlaying)
-		{
-			Debug.LogError("Better don't destroy at yet, you should enter the play mode!");
-			return;
-		}
+
 
 		if (m_meshFilter == null || m_meshRenderer == null)
 		{

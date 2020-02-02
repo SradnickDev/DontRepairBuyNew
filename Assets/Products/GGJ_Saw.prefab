@@ -84,6 +84,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   m_isBreakable: 1
+  Bought: 0
 --- !u!1 &5097817387603581911
 GameObject:
   m_ObjectHideFlags: 0

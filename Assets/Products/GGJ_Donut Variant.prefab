@@ -23,7 +23,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9100247279803381859}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d877c62616191c9448e22833f89249de, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -165,7 +165,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
         type: 3}
       propertyPath: m_Name
-      value: GGJ_Donut
+      value: GGJ_Donut Variant
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 627ff640543701043bac346410418ee2,
         type: 3}

@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &1884145073272681567
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7321016500370409442}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.021477573, y: 0.02033228, z: 0.024692275}
-  m_Center: {x: 0.0002953573, y: -0.000033418175, z: 0.0000751498}
 --- !u!54 &8121112110678490580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29,41 +16,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6815064449073771523
-MonoBehaviour:
+--- !u!65 &1884145073272681567
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7321016500370409442}
+  m_Material: {fileID: 13400000, guid: d877c62616191c9448e22833f89249de, type: 2}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_allowOffhandGrab: 1
-  m_snapPosition: 0
-  m_snapOrientation: 0
-  m_snapOffset: {fileID: 0}
-  m_grabPoints: []
---- !u!114 &6291713282845754182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7321016500370409442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_meshRenderer: {fileID: 9053835844913738558}
-  m_meshFilter: {fileID: 3357757672010272711}
-  m_collider: {fileID: 1884145073272681567}
-  m_force: {x: 100, y: 200}
-  m_destroyPieceAfterSecounds: 2
-  m_maxPieces: 5
+  serializedVersion: 2
+  m_Size: {x: 0.021477573, y: 0.02033228, z: 0.024692275}
+  m_Center: {x: 0.0002953573, y: -0.000033418175, z: 0.0000751498}
 --- !u!114 &1565699306654456545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,6 +50,41 @@ MonoBehaviour:
     m_Bits: 256
   m_isBreakable: 1
   Bought: 0
+--- !u!114 &6291713282845754182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321016500370409442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8815f2529b52c1a4fa886f1278474adb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_meshRenderer: {fileID: 9053835844913738558}
+  m_meshFilter: {fileID: 3357757672010272711}
+  m_collider: {fileID: 1884145073272681567}
+  m_force: {x: 100, y: 200}
+  m_destroyPieceAfterSecounds: 2
+  m_maxPieces: 5
+--- !u!114 &6815064449073771523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321016500370409442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1001 &1299564286446296006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -239,7 +239,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: d5824488b3d75dc4a8df9bd7e9ee66bb,
         type: 3}
       propertyPath: m_Name
-      value: GGJ_Wood
+      value: GGJ_Wood Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5824488b3d75dc4a8df9bd7e9ee66bb, type: 3}

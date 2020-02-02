@@ -23,7 +23,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8038386506993998375}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: d877c62616191c9448e22833f89249de, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -165,7 +165,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 3acb910570115644c9b881bbb72a83ee,
         type: 3}
       propertyPath: m_Name
-      value: GGJ_band_aid
+      value: GGJ_band_aid Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3acb910570115644c9b881bbb72a83ee, type: 3}
