@@ -873,6 +873,7 @@
           <e p="Eating.cs" t="Include" />
           <e p="Follow.cs" t="Include" />
           <e p="GameLoop.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="Phone.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="QualityScript.cs" t="Include" />

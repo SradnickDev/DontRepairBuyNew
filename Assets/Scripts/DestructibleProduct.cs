@@ -9,6 +9,8 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof(Collider))]
 public class DestructibleProduct : MonoBehaviour
 {
+	[SerializeField] private AudioClip m_clip;
+	[SerializeField] private AudioSource m_audioSource;
 	[SerializeField] private MeshRenderer m_meshRenderer;
 	[SerializeField] private MeshFilter m_meshFilter;
 	[SerializeField] private Collider m_collider;
@@ -112,7 +114,7 @@ public class DestructibleProduct : MonoBehaviour
 				pieceCount++;
 			}
 		}
-
+		m_audioSource.PlayOneShot(m_clip);
 		if (GetComponent<OVRGrabbable>().grabbedBy != null)
 		{
 			GetComponent<OVRGrabbable>().grabbedBy.ForceRelease(GetComponent<OVRGrabbable>());

@@ -156,7 +156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25e809cc72cdb848a21b2d25d008377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_clip: {fileID: 8300000, guid: d3a5e221cd6f0044c9a55b0f35b8dc39, type: 3}
+  m_clips:
+  - {fileID: 8300000, guid: d3a5e221cd6f0044c9a55b0f35b8dc39, type: 3}
+  - {fileID: 8300000, guid: 010e6bd48a4bb934ca94f706819d0fea, type: 3}
+  - {fileID: 8300000, guid: 8c4ab7070f86f944c961cd4b756308fb, type: 3}
   m_audioSource: {fileID: 1118090422861159223}
   ScoreData: {fileID: 11400000, guid: 7c5b77ef86270c64fa1af56ccfdf971e, type: 2}
   m_textMesh: {fileID: 8054753581848304993}
